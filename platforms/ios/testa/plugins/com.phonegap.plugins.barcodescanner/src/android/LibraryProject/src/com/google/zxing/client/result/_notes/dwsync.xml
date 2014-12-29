@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractDoCoMoResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="AddressBookAUResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="AddressBookDoCoMoResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="AddressBookParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="BizcardResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="BookmarkDoCoMoResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="CalendarParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="EmailAddressParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="EmailAddressResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="EmailDoCoMoResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ExpandedProductParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ExpandedProductResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="GeoParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="GeoResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ISBNParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ISBNResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ParsedResultType.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ProductParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ProductResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="ResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="SMSMMSResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="SMSParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="SMSTOMMSTOResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="SMTPResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="TelParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="TelResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="TextParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="URIParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="URIResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="URLTOResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="VCardResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="VEventResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="WifiParsedResult.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+<file name="WifiResultParser.java" server="213.186.44.130/wwwroot/todo/" local="130398235780000000" remote="130407425400000000" Dst="2" />
+</dwsync>

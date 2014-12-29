@@ -1,0 +1,38 @@
+        <div class="main content clearfix">
+            <div class="banner">
+                <h3 translate>
+                Gérez vos amis infinyList
+                </h3>
+            </div>
+            <div class="card signin-card clearfix">
+                <div class="barrePlus clearfix">
+                    <div class="cellCentre"><a href="" ng-click="addContact()"><img class="plus-img" src="../images/plus.png" alt=""></a></div>
+                </div>
+
+               <div class=friendListe ng-repeat="friend in friends">
+                    <div class=" rc-left">
+                        <!-- Le bouton de suppression -->
+                        <a ng-click="deleteFriend(friend)" href=#>
+                            <div class="deleteFriend"></div>
+                        </a>  
+
+                        <div class="friend">
+                        	<span class="friendName">{{friend.nameFriend}}</span>
+                            <br />
+                            <span="friendEmail">{{friend.emailFriend}}</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+           </div>
+ 
+ 
+            <div class="centered">
+                <p class="create-account">
+                    <a href="../index.html" translate>
+                    Retour accueil
+                    </a>
+                </p>
+            </div>
+    	</div>

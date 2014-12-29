@@ -1,0 +1,43 @@
+        <!-- *********************************************************************************-->
+        <!-- 1.0 Affichage du nom de la liste                                                     -->
+        <!-- *********************************************************************************-->
+        <div class="banner">
+            <h3>
+                {{liste.lst_nom}}
+                <a href=#/listeOptions/{{idListe}}> 
+	                <img height=24 hspace=10 src=images/options.png align="absmiddle"/>
+                </a>
+            </h3>
+        </div>
+
+        <!-- *********************************************************************************-->
+        <!-- 2.0 Affichage des commandes de la liste                                              -->
+        <!-- *********************************************************************************-->
+       <div class="card cardli signin-card clearfix">
+       		<div class="barrePlus clearfix">
+                <div class="cellLeft"><a href="" ng-click="openTri()"><img ng-if="rowsLength>1" class="filter-img" src="images/sort.png" alt=""></a></div>
+                <div class="cellCentre"><a href="" ng-click="new()"><img class="plus-img" src="images/plus.png" alt=""></a></div>
+            	<div class="cellRight"><a href="" ng-click="openFiltre()"><img ng-if="rowsLength>1" class="filter-img" src="images/filter.png" alt=""></div>
+            </div>
+            <!-- *********************************************************************************-->
+            <!-- 3.0 Il n'y a pas d'élément dans la liste -->    
+            <!-- *********************************************************************************-->
+            <div class="centered"  ng-if="rowsLength==0">
+                <p class="create-account">
+                    Cliquez sur le bouton<br>pour créer votre premier élément</a>
+                </p>
+            </div>
+            
+            <!-- *********************************************************************************-->
+            <!-- 4.0 On affiche la liste des éléments -->
+            <!-- *********************************************************************************-->
+			<div  ng-repeat="row in rows | filter : filtreHierarchique(filtre) | orderBy:['-__cat',triListe['champ']] track by row['_id']['$id']" ng-include="detailRow" >
+            </div>
+       
+        </div>
+        
+        <div class="centered">
+            <p class="create-account">
+                <a href="#/">Retour page accueil</a>
+            </p>
+        </div>

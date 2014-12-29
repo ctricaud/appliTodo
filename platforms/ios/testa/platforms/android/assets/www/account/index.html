@@ -1,0 +1,36 @@
+<html  ng-app="myApp" lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+
+    <title>InfinyList.com</title>
+    <link rel="stylesheet" type="text/css" href="../inc/style/style.css" />
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="centered">
+                <img alt="TodoList" class="logo" src="../images/logo.png" width=500 style="max-width:100%;">
+        </div>
+        <div class="main content clearfix">
+	        <ng-view/>
+        </div>
+   </div>
+ 
+    <script src="../inc/js/angular.min.js"></script>
+    <script src="../inc/js/angular-route.min.js"></script>
+    <script src="../inc/js/angular-sanitize.min.js"></script>
+  	<script src="../inc/js/angular-cookies.min.js"></script>
+    <script src="../inc/js/angular-mobile.js"></script>
+    <script src="../inc/js/mobile-nav.js"></script>
+    <script src="../inc/js/ui-bootstrap-tpls-0.10.0.js"></script>
+
+    
+	<script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </body>
+</html>
+

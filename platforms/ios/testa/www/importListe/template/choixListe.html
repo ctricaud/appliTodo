@@ -1,0 +1,43 @@
+        <div class="banner">
+            <h3>
+				Importer la liste
+                <p ng-show="erreur">
+                	{{message}}
+                </p>
+                <p ng-hide="erreur">
+                {{liste.nomListe}}<br />
+                {{liste.Origine}}
+                </p>
+            </h3>
+        </div>
+       <div ng-hide="erreur" class="card cardli signin-card clearfix">
+       		<div ng-if = "listesLength>0">
+                <div class="barrePlus clearfix">
+                    Choisissez où importer cette liste:
+                 </div>
+                    
+                 <li class="rc-button rc-button-submit" ng-repeat="liste in listes | orderBy:'lst_nom'">
+                    <div class=" rc-left" ng-click="selListe(liste)">
+                        {{liste.lst_nom}} 
+                    </div>
+                </li>
+                <br /><br />ou<br /><br />
+			</div>
+            <div class="barrePlus clearfix">
+                Ajouter dans une nouvelle liste:
+             </div>
+                
+             <li class="rc-button rc-button-submit" >
+                <div class=" rc-left" ng-click="selListe()">
+                    {{liste.nomListe}} 
+                </div>
+            </li>
+
+        </div>
+        
+
+        <div class="centered">
+            <p class="create-account">
+				<a href="../index.html">Retour accueil</a>
+            </p>
+        </div>

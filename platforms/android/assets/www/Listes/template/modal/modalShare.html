@@ -1,0 +1,57 @@
+<div class="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" ng-click="cancel()">&times;</button>
+      <h4 class="modal-title">Partager votre liste {{liste.lst_nom}}
+      <span ng-hide=choix ><br />Sélectionnez vos amis ({{nbFriends}} / {{friendsLength}})</span>
+</h4>
+    </div>
+    <div class="modal-body">
+		<div class=shareChoix ng-show=choix>        
+            <a href="" ng-click="shareFriend()">
+                <div class=shareModal>
+                    <img src=images/share-friends.gif />Patager avec vos amis 
+                 </div>
+			</a>
+            
+            <div class=shareModal>
+                <img src=images/share-wall.gif />Publier sur votre mur infinyList
+            </div>
+            <div class=shareModal>
+                <img src=images/share-facebook.gif />Publier sur votre compte Facebook
+            </div>
+            <div class=shareModal>
+                <img src=images/share-tweeter.gif />Tweeter vos sélections
+            </div>
+            <div class=shareModal>
+                <img src=images/share-pinterest.gif />Publier sur votre compte Pinterest
+            </div>
+            <a href="" ng-click=pdf() target=_new>
+                <div class=shareModal>
+                    <img src=images/share-pdf.png />Imprimer en PDF votre liste
+                </div>
+			</a>
+		</div>
+        
+        <div class=friendListe ng-hide=choix ng-repeat="friend in friends">
+            <div class=" rc-left" ng-init="friend.selected=0;">
+
+                <div ng-click="toggle(friend)" class="friend" ng-class="'friendSelected'+friend.selected">
+                    <span class="friendName">{{friend.nameFriend}}</span>
+                    <br />
+                    <span="friendEmail">{{friend.emailFriend}}</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        <button ng-hide="choix || nbFriends==0"  type="button" class="btn btn-default" ng-click="share()">Partager avec les amis sélectionnés</button>
+        
+
+
+      </div>
+      
+     <div class="modal-footer">
+      <button ng-hide="choix" type="button" class="btn btn-default" ng-click="chooseFriends()">Gérer votre liste d'amis</button>
+       <button type="button" class="btn btn-default" ng-click="cancel()">Fermer</button>
+    </div>
+</div>

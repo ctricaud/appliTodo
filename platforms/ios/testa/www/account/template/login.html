@@ -1,0 +1,38 @@
+           <div class="banner">
+                <h1>
+                Des projets et des listes sans limite
+                </h1>
+            </div>
+		    <div class="card signin-card clearfix">
+                <img class="profile-img" src="../images/infinity.gif" alt="">
+                <p class="profile-name"></p>
+                <form ng-submit="login()">
+                    <input ng-model="Email" type="email" placeholder="Adresse e-mail" required >
+                    <input ng-model="password" type="password" placeholder="Mot de passe" required>
+                    
+                    <span class="error-msg">{{message}}</span>
+                    
+                    <input id="signIn" name="signIn" class="rc-button rc-button-submit" type="submit" value="Connexion">
+
+                    <div class="fullwidth">
+                        <div class="right">
+                            <a href="#password">Mot de Passe perdu?</a>
+                        </div>
+                        {{message}}
+                        <div class="left">
+                            <label class="remember">
+                            	<input id="PersistentCookie" name="PersistentCookie" type="checkbox" value="yes" checked="checked">
+                            	<span>Rester connecté</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="centered">
+                <p class="create-account">
+                    <a id="link-signup" href="#creation">
+                    	Créer un compte gratuitement
+                    </a>
+                </p>
+            </div>

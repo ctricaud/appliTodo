@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: account-en\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christophe Tricaud <christophe@tricaud.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: www/account/template/validation.html
+msgid "Activation d'un nouveau compte utilisateur"
+msgstr "Activating a new account"
+
+#: www/account/template/creation.html www/account/template/login.html
+#: www/account/template/password.html
+msgid "Adresse e-mail"
+msgstr "Email"
+
+#: www/account/template/login.html
+msgid "Connexion"
+msgstr "Connection"
+
+#: www/account/template/setupPassword.html
+msgid "Contrôle répéter Mot de passe"
+msgstr "Control repeat Password"
+
+#: www/account/template/creation.html
+msgid "Contrôle: répéter Mot de passe"
+msgstr "Control repeat Password"
+
+#: www/account/template/creation.html
+msgid "Création d'un nouveau compte utilisateur"
+msgstr "Creating a new user account"
+
+#: www/account/template/login.html
+msgid "Créer un compte gratuitement"
+msgstr "Create a free account"
+
+#: www/account/template/login.html
+msgid "Des projets et des listes sans limite"
+msgstr "Unlimited projects and lists"
+
+#: www/account/template/setupPassword.html
+msgid "Entre 6 et 30 caractères"
+msgstr "Between 6 and 30 characters"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+msgid "Envoi demande"
+msgstr "sending request"
+
+#: www/account/template/string.html
+msgid ""
+"Impossible d'activer votre compte, un incident est survenu.<br>Vérifier "
+"votre saisie."
+msgstr "Unable to activate your account, an incident occurred. <br> Check your entry."
+
+#: www/account/template/string.html
+msgid ""
+"Impossible de créer votre compte, est incident est survenu.<br>Vérifier "
+"votre saisie."
+msgstr "Unable to create your account is incident occurred. <br> Check your entry."
+
+#: www/account/template/string.html
+msgid ""
+"Impossible de mettre à jour votre mot de passe. Le code passé est erroné"
+msgstr "Unable to update your password. Past code is wrong"
+
+#: www/account/template/string.html
+msgid ""
+"Impossible de mettre à jour votre mot de passe. Le code passé est obsolète"
+msgstr "Unable to update your password. The past is obsolete code"
+
+#: www/account/template/string.html
+msgid "Le lien n'est pas correct, impossible d'activer votre compte"
+msgstr "The link is not correct, you can not activate your account"
+
+#: www/account/template/string.html
+#, fuzzy
+msgid ""
+"Le lien n'est pas correct, impossible de saisir votre nouveau mot de passe"
+msgstr "Enter your new password"
+
+#: www/account/template/login.html
+msgid "Mot de Passe perdu?"
+msgstr "Forgotten password?"
+
+#: www/account/template/login.html
+msgid "Mot de passe"
+msgstr "Password"
+
+#: www/account/template/creation.html
+msgid "Mot de passe: 6 à 30 car."
+msgstr "Password: 6-30 characters"
+
+#: www/account/template/string.html
+msgid ""
+"Nous n'avons pas trouvé vos identifiants dans notre base, contrôllez votre "
+"identifiant et votre mot de passe."
+msgstr "We did not find your username in our database, check your username and password."
+
+#: www/account/template/string.html
+msgid "Nous n'avons pas trouvé votre email dans notre base."
+msgstr "We have not found your email in our database."
+
+#: www/account/template/setupPassword.html
+msgid "Nouveau mot de passe"
+msgstr "New password"
+
+#: www/account/template/password.html
+msgid "Redéfinissez votre mot de passe"
+msgstr "Reset password"
+
+#: www/account/template/login.html
+msgid "Rester connecté"
+msgstr "Keep connected"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+#: www/account/template/validation.html
+msgid "Retour identification"
+msgstr "Back identification"
+
+#: www/account/template/setupPassword.html
+msgid "Saisissez votre nouveau mot de passe"
+msgstr "Enter your new password"
+
+#: www/account/template/string.html
+msgid "Un compte avec cet email existe déjà!"
+msgstr "An account with this email already exists!"
+
+#: www/account/template/string.html
+msgid ""
+"Un email vous a été envoyé vous permettant de réinitialiser votre mot de "
+"passe."
+msgstr "An email was sent to you allowing you to reset your password."
+
+#: www/account/template/string.html
+#, fuzzy
+msgid "Un incident a eu lieu avec le serveur. <br>Merci d'essayer à nouveau."
+msgstr "An incident occurred with the server. Thank you to try again."
+
+#: www/account/template/string.html
+msgid "Un incident a eu lieu avec le serveur. Merci d'essayer à nouveau."
+msgstr "An incident occurred with the server. Thank you to try again."
+
+#: www/account/template/string.html
+msgid "Vos mots de passe sont différents, merci de corriger votre saisie"
+msgstr "Your passwords are different, thank you to correct your entry"
+
+#: www/account/template/string.html
+msgid ""
+"Votre compte a été activé. <br>Vous pouvez maintenant accéder à notre "
+"service et vous identifier."
+msgstr "Your account has been activated. <br> You can now access our service and identify you."
+
+#: www/account/template/string.html
+#, fuzzy
+msgid ""
+"Votre compte a été créé. <br>Pour qu'il soit valide, vous devez cliquer sur "
+"le lien qui vous a été adressé par email."
+msgstr "Your account is awaiting validation. Please click on the link that was sent to you by email."
+
+#: www/account/template/string.html
+msgid ""
+"Votre compte est en attente de validation. Veuillez cliquer sur le lien qui "
+"vous a été adressé par email."
+msgstr "Your account is awaiting validation. Please click on the link that was sent to you by email."
+
+#: www/account/template/string.html
+msgid "Votre mot de passe a été modifié, vous pouvez vous identifier."
+msgstr "Your password has been changed, you can identify."
+
+#: www/account/template/creation.html
+msgid "Votre nom: 3 à 50 car."
+msgstr "Your name: 3-50 characters"
+

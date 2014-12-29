@@ -1,0 +1,22 @@
+<div class="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" ng-click="cancel()">&times;</button>
+      <h4 class="modal-title">
+      	{{liste.champs[liste.champCommentaire].description}} - 
+        <span ng-hide="row['__cat']==0">{{liste['nomItem']}} - </span>
+      	<span ng-hide="row['__cat']!=0">{{liste['nomSSItem']}} - </span>
+      	{{row[liste.champs[liste.champDefaut].nomChamp]}}
+      </h4>
+    </div>
+    <div class="modal-body clearfix">
+        <div class="commentaire2 clearfix" >
+            <span ng-bind-html="row[liste.champs[liste.champCommentaire].nomChamp]"></span>
+        </div>
+	
+        {{liste.champs[liste.champCommentaire].description}}: <textarea ng-model="row['newCommentaire']" type="text" rows=5></textarea>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" ng-click="cancel()">Annuler</button>
+      <button type="button" class="btn btn-primary" ng-click="ok()">Ajouter</button>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+        <div class="banner">
+            <h3>
+                Options de  {{liste.lst_nom}}
+            </h3>
+        </div>
+       <div class="card signin-card clearfix">
+                Nom : <input id="lst_nom" ng-model="liste.lst_nom" ng-change="update('listes','lst_nom','{{liste._id.$id}}','liste.lst_nom')" name="lst_nom" type="text" placeholder="Saissiez le nom de votre liste" maxlength=30 class="">
+                Modèle de base : <input id="mdl_nom" disabled="disabled" ng-model="liste.mdl_nom" name="mdl_nom" type="text" placeholder="Saissiez le nom de votre liste" maxlength=30 class="grisee">
+                Date création : <input id="lst_date_creation" disabled="disabled" ng-model="liste.dateCreation" name="lst_date_creation" type="text" placeholder="Saissiez le nom de votre liste" maxlength=30 class="grisee">
+                Date dernière modification : <input id="lst_date_modification" disabled="disabled" ng-model="liste.datemodification" name="lst_date_modification" type="text" placeholder="Saissiez le nom de votre liste" maxlength=30 class="grisee">
+				
+                <ul style="margin:0px;padding:0px;">
+                <li class="rc-button rc-button-submit">
+                    <div class=" rc-left">
+                        <a href="#listeChamps/{{liste._id.$id}}">Listes des champs de la liste</a> 
+                        <div class="alert-img">&#9654;</div>
+                    </div>
+                </li>
+
+                <li class="rc-button rc-button-submit">
+                    <div class=" rc-left">
+                        <a href="/#listePartages/{{liste._id.$id}}">Listes des partages</a> 
+                        <div class="alert-img">&#9654;</div>
+                    </div>
+                </li>
+
+                <li class="rc-button rc-button-submit"">
+                    <div class=" rc-left">
+                        <a href="/#listeImpression/{{liste._id.$id}}}">Paramétrage de l'impression</a> 
+                        <div class="alert-img">&#9654;</div>
+                    </div>
+                </li>
+				</ul>
+                
+                <ul  style="margin-top:10px;padding:0px;">
+                <li ng-if="countListe!=0" class="rc-button rc-button-submit" ng-click=archiverListe()>
+                    <div class=" rc-left">
+                        <a href="">Archiver la liste</a> 
+                        <div class="alert-img rouge">&#10006;</div>
+                    </div>
+                </li>
+
+                <li class="rc-button rc-button-submit" ng-click=supprimerListe()>
+                    <div class=" rc-left">
+                        <a href="">Supprimer la liste</a> 
+                        <div class="alert-img rouge">&#10006;</div>
+                    </div>
+                </li>
+				</ul>
+        </div>
+        
+
+        <div class="centered">
+            <p class="create-account">
+				<a href="#/liste/{{liste._id.$id}}">Retour contenu de votre Liste</a>
+            </p>
+        </div>

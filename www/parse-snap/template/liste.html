@@ -1,0 +1,32 @@
+
+        <div class="banner">
+            <h3>Récupération d'une URL</h3>
+             <p class="create-account" ng-bind-html="message">{{message}}</p>
+        </div>
+
+    <div ng-hide="selection || erreur" class="card cardli signin-card clearfix">
+        <li class="rc-button rc-button-submit" ng-repeat="liste in listes | orderBy : 'lst_nom'">
+            <div ng-click="selListe(liste)" class=" rc-left">
+                {{liste.lst_nom}} 
+            </div>
+        </li>
+	</div>
+
+   <div ng-show="snapshot && !selection" class="card cardli signin-card clearfix">
+   		{{question}}<br /><br />
+        <li class="rc-button rc-button-submit" ng-repeat="liste in listes2 | orderBy : 'lst_nom'">
+            <div ng-click="selListeSnap(liste)" class=" rc-left">
+                {{liste.lst_nom}} 
+            </div>
+        </li>
+	</div>
+
+       
+
+    <div class="centered">
+        <p class="create-account">
+            <a href="../index.html">Retour Accueil</a>
+        </p>
+    </div>
+
+

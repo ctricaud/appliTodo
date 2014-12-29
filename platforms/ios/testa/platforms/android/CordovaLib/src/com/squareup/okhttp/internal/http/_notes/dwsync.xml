@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractHttpInputStream.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HeaderParser.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpAuthenticator.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpDate.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpEngine.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpsEngine.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpsURLConnectionImpl.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpTransport.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="HttpURLConnectionImpl.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="OkResponseCacheAdapter.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="Policy.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="RawHeaders.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="RequestHeaders.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="RouteSelector.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="RetryableOutputStream.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="ResponseHeaders.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="SpdyTransport.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="Transport.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+<file name="UnknownLengthHttpInputStream.java" server="213.186.44.130/wwwroot/todo/" local="130398220860000000" remote="130407422400000000" Dst="2" />
+</dwsync>

@@ -1,0 +1,5 @@
+angular.module('myApp').run(['gettextCatalog', function (gettextCatalog) {
+/* jshint -W100 */
+    gettextCatalog.setStrings('zh', {"Activation d'un nouveau compte utilisateur":"激活新帐号","Adresse e-mail":"电子邮件地址","Connexion":"注册","Contrôle répéter Mot de passe":"控制重复密码","Contrôle: répéter Mot de passe":"控制：重复密码","Création d'un nouveau compte utilisateur":"创建一个新的用户帐户","Créer un compte gratuitement":"创建一个免费帐户","Des projets et des listes sans limite":"项目和无限的名单","Entre 6 et 30 caractères":"6至30个字符","Envoi demande":"发送请求","Mot de Passe perdu?":"忘记密码？","Mot de passe":"密码","Mot de passe: 6 à 30 car.":"密码：6-30车。","Nouveau mot de passe":"新密码","Redéfinissez votre mot de passe":"重设密码","Rester connecté":"保持联系","Retour identification":"返回标识","Saisissez votre nouveau mot de passe":"请输入您的新密码","Votre nom: 3 à 50 car.":"你的名字：3-50车。","{{message}}":"{{消息}}"});
+/* jshint +W100 */
+}]);

@@ -1,0 +1,5 @@
+angular.module('myApp').run(['gettextCatalog', function (gettextCatalog) {
+/* jshint -W100 */
+    gettextCatalog.setStrings('it', {"Activation d'un nouveau compte utilisateur":"Attivare un nuovo account","Adresse e-mail":"E-mail","Connexion":"Entra","Contrôle répéter Mot de passe":"Controllo ripetizione password","Contrôle: répéter Mot de passe":"Controllo ripetizione password","Création d'un nouveau compte utilisateur":"Creazione di un nuovo account utente","Créer un compte gratuitement":"Creare un account gratuito","Des projets et des listes sans limite":"Progetti e liste illimitate","Entre 6 et 30 caractères":"Tra 6 e 30 caratteri","Envoi demande":"invio richiesta","Mot de Passe perdu?":"Password dimenticata?","Mot de passe":"Password","Mot de passe: 6 à 30 car.":"Password: 6-30 caratteri","Nouveau mot de passe":"Nuova password","Redéfinissez votre mot de passe":"Resettare la password","Rester connecté":"Rimani connesso","Retour identification":"identificazione Indietro","Saisissez votre nouveau mot de passe":"Inserisci la tua nuova password","Votre nom: 3 à 50 car.":"Il tuo nome: 3-50 caratteri"});
+/* jshint +W100 */
+}]);

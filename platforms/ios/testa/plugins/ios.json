@@ -1,0 +1,46 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "framework": {
+            "CoreData.framework": {
+                "false": 1
+            },
+            "SystemConfiguration.framework": {
+                "false": 1
+            },
+            "libiconv.dylib": {
+                "false": 1
+            },
+            "AVFoundation.framework": {
+                "false": 1
+            },
+            "AssetsLibrary.framework": {
+                "false": 1
+            },
+            "CoreVideo.framework": {
+                "false": 1
+            },
+            "QuartzCore.framework": {
+                "false": 1
+            }
+        },
+        "config.xml": {
+            "/*": {
+                "<feature name=\"GAPlugin\"><param name=\"ios-package\" value=\"GAPlugin\" /></feature>": 1,
+                "<feature name=\"BarcodeScanner\"><param name=\"ios-package\" value=\"CDVBarcodeScanner\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.adobe.plugins.GAPlugin": {
+            "PACKAGE_NAME": "com.testa.www"
+        },
+        "com.phonegap.plugins.barcodescanner": {
+            "PACKAGE_NAME": "com.testa.www"
+        }
+    },
+    "dependent_plugins": {}
+}

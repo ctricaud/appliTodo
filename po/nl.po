@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christophe Tricaud <christophe@tricaud.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+
+#: www/account/template/validation.html
+msgid "Activation d'un nouveau compte utilisateur"
+msgstr "Het activeren van een nieuwe account"
+
+#: www/account/template/creation.html www/account/template/login.html
+#: www/account/template/password.html
+msgid "Adresse e-mail"
+msgstr "E-mail"
+
+#: www/account/template/login.html
+msgid "Connexion"
+msgstr "Login"
+
+#: www/account/template/setupPassword.html
+msgid "Contrôle répéter Mot de passe"
+msgstr "Controle Herhaal wachtwoord"
+
+#: www/account/template/creation.html
+msgid "Contrôle: répéter Mot de passe"
+msgstr "Controle Herhaal wachtwoord"
+
+#: www/account/template/creation.html
+msgid "Création d'un nouveau compte utilisateur"
+msgstr "Het creëren van een nieuwe gebruikersaccount"
+
+#: www/account/template/login.html
+msgid "Créer un compte gratuitement"
+msgstr "Maak een gratis account"
+
+#: www/account/template/login.html
+msgid "Des projets et des listes sans limite"
+msgstr " Onbeperkt Projecten en lijsten"
+
+#: www/account/template/setupPassword.html
+msgid "Entre 6 et 30 caractères"
+msgstr "Tussen 6 en 30 tekens"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+msgid "Envoi demande"
+msgstr "Verzoek verzenden"
+
+#: www/account/template/login.html
+msgid "Mot de Passe perdu?"
+msgstr "Wachtwoord vergeten?"
+
+#: www/account/template/login.html
+msgid "Mot de passe"
+msgstr "Wachtwoord"
+
+#: www/account/template/creation.html
+msgid "Mot de passe: 6 à 30 car."
+msgstr "Wachtwoord: 6-30 auto."
+
+#: www/account/template/setupPassword.html
+msgid "Nouveau mot de passe"
+msgstr "Nieuw wachtwoord"
+
+#: www/account/template/password.html
+msgid "Redéfinissez votre mot de passe"
+msgstr "Reset wachtwoord"
+
+#: www/account/template/login.html
+msgid "Rester connecté"
+msgstr "Blijf verbonden"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+#: www/account/template/validation.html
+msgid "Retour identification"
+msgstr "Terug identificatie"
+
+#: www/account/template/setupPassword.html
+msgid "Saisissez votre nouveau mot de passe"
+msgstr "Voer uw nieuwe wachtwoord"
+
+#: www/account/template/creation.html
+msgid "Votre nom: 3 à 50 car."
+msgstr "Uw naam: 3-50 auto."
+
+#: www/account/template/setupPassword.html
+msgid "{{message}}"
+msgstr ""

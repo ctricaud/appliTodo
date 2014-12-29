@@ -1,0 +1,24 @@
+<div class="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" ng-click="cancel()">&times;</button>
+      <h4 class="modal-title">Filtre de vos listes</h4>
+    </div>
+    <div class="modal-body">
+      <input type=checkbox ng-model="filtre2['archive']" ng-checked="filtre2['archive']" /> Inclure les listes archivées
+      <br /><br />
+      Nom de la liste contient:
+      <input type=text ng-model="filtre2['nom']" />
+      <br /><br />
+      Modèle est:
+      <select class="listeModeles" ng-model="filtre2['modele']" id="modele" name="modele" 
+      		ng-options="modele._id.$id as modele.mdl_nom for (mdl_nom,modele) in modeles">
+            <option value="">-- Tous les modèles --</option>
+        </select>
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" ng-click="reset(filtre2)">Reset</button>
+      <button type="button" class="btn btn-default" ng-click="cancel()">Annuler</button>
+      <button type="button" class="btn btn-primary" ng-click="ok(filtre2)">Valider</button>
+    </div>
+</div>

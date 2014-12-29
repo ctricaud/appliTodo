@@ -1,0 +1,27 @@
+ 		<div class="main content clearfix">
+            <div class="banner">
+                <h2 translate>
+                Création d'un nouveau compte utilisateur
+                </h2>
+            </div>
+            <div class="card signin-card clearfix">
+                <form ng-submit="creation()">
+                    <input ng-model="Email" type="email" placeholder='{{"Adresse e-mail" | translate}}' spellcheck="false" class="" required>
+                    <input ng-model="Nom" type="text" placeholder='{{"Votre nom: 3 à 50 car." | translate}}' pattern=".{3,50}" spellcheck="false" class="" required>
+                    <input ng-model="mdp1" type="password" placeholder='{{"Mot de passe: 6 à 30 car." | translate}}' pattern=".{6,30}" spellcheck="false" class="" required>
+                    <input ng-model="mdp2" type="password" placeholder='{{"Contrôle: répéter Mot de passe" | translate}}'class="" required>
+    
+                    <span class="error-msg" ng-show="message" ng-bind-html="message | translate"></span>
+                        
+	                <input ng-show="affBouton" id="signIn" name="signIn" class="rc-button rc-button-submit" type="submit" value='{{"Envoi demande" | translate}}'>
+                 </form>
+            </div>
+            <div class="centered">
+                <p class="create-account">
+                    <a href="#" translate>
+                    Retour identification
+                    </a>
+                </p>
+            </div>
+
+    	</div>

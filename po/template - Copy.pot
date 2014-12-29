@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: www/account/template/login.html
+msgid "Adresse e-mail"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Connexion"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Créer un compte gratuitement"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Des projets et des listes sans limite"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Mot de Passe perdu?"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Mot de passe"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Rester connecté"
+msgstr ""

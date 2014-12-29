@@ -1,0 +1,17 @@
+<div class="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" ng-click="cancel()">&times;</button>
+      <h4 class="modal-title">Filtre de votre liste {{liste.lst_nom}}</h4>
+    </div>
+    
+    <div class="modal-body">
+	    <div ng-bind-html="templateFiltre"></div>
+    </div>
+    
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" ng-click="reset(filtre2)">Reset</button>
+      <button type="button" class="btn btn-default" ng-click="cancel()">Annuler</button>
+      <button type="button" class="btn btn-primary" ng-click="ok(filtre2)">Valider</button>
+    </div>
+    
+</div>{{filtre2}}

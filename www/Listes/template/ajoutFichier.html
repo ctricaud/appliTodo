@@ -1,0 +1,39 @@
+<div class="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" ng-click="cancel()">&times;</button>
+      <h4 class="modal-title">
+      	Ajouter un fichier - 
+        {{row[liste.champs[liste.champDefaut].nomChamp]}}
+      </h4>
+    </div>
+    <div class="modal-body clearfix">
+    	<div ng-show="selectedFiles==null">
+            Nom pour le(s) fichier(s): <input type="text" ng-model="myModel">
+            <br /><br />
+            Choisir les fichiers à ajouter: <br /><input type="file" ng-file-select="onFileSelect($files,myModel)" multiple onclick="this.value=null">
+            <br/><br/>
+            <div ng-show="dropSupported" class="drop-box" ng-file-drop="onFileSelect($files,myModel);" ng-file-drop-available="dropSupported=true">ou glisser les fichiers ici</div>
+            <br/>
+            <div class="err" ng-show="errorMsg != null">{{errorMsg}}</div>
+		</div>
+		<div ng-show="selectedFiles != null">
+            Progression:
+            <br/>
+            <br/>
+			<div class="sel-file" ng-repeat="f in selectedFiles">
+				{{($index + 1) + '.'}}
+				<img ng-show="dataUrls[$index]" ng-src="{{dataUrls[$index]}}">
+				<span class="progress" ng-show="progress[$index] >= 0">						
+					<div style="width:{{progress[$index]}}%">{{progress[$index]}}%</div>
+				</span>				
+				<button class="button" ng-click="abort($index)" ng-show="hasUploader($index) && progress[$index] < 100">Annulation</button>
+				{{f.name}} - taille: {{f.size2}} {{f.unite}} - type: {{f.type}}
+			</div>
+		</div>
+    </div>
+
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" ng-click="cancel()">Fermer</button>
+    </div>
+</div>

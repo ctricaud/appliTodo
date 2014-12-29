@@ -1,0 +1,39 @@
+        <div class="centered">
+                <img alt="infini" class="logo" src="../images/accueil.jpg" width=500 style="max-width:100%;">
+        </div>
+       <div class="banner">
+            <h2 translate>
+            Des projets et des listes sans limite
+            </h2>
+        </div>
+		    <div class=" card0 signin-card clearfix">
+                <form ng-submit="login()">
+                    <input ng-model="Email" type="email" placeholder="{{'Adresse e-mail' | translate}}" required >
+                    <input ng-model="password" type="password" placeholder="{{'Mot de passe' | translate}}" required>
+                    
+                    <span class="error-msg" ng-show="message">{{message | translate}}</span>
+                    <br />
+                    <input id="signIn" name="signIn" class="rc-button rc-button-submit" type="submit" value="{{'Connexion' | translate}}">
+
+                    <div class="fullwidth">
+                        <div class="right">
+                            <a href=#password/{{Email}} translate>Mot de Passe perdu?</a>
+                        </div>
+                        
+                        <div class="left">
+                            <label class="remember">
+                            	<input ng-model="persistentCookie" checked ng-init="persistentCookie=true" type="checkbox">
+                            	<span translate>Rester connecté</span>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="centered">
+                <p class="create-account">
+                    <a id="link-signup" href="#creation" translate>
+                    	Créer un compte gratuitement
+                    </a>
+                </p>
+            </div>

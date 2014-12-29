@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: www/account/template/validation.html
+msgid "Activation d'un nouveau compte utilisateur"
+msgstr ""
+
+#: www/account/template/creation.html
+#: www/account/template/login.html
+#: www/account/template/password.html
+msgid "Adresse e-mail"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Connexion"
+msgstr ""
+
+#: www/account/template/setupPassword.html
+msgid "Contrôle répéter Mot de passe"
+msgstr ""
+
+#: www/account/template/creation.html
+msgid "Contrôle: répéter Mot de passe"
+msgstr ""
+
+#: www/account/template/creation.html
+msgid "Création d'un nouveau compte utilisateur"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Créer un compte gratuitement"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Des projets et des listes sans limite"
+msgstr ""
+
+#: www/account/template/setupPassword.html
+msgid "Entre 6 et 30 caractères"
+msgstr ""
+
+#: www/account/template/creation.html
+#: www/account/template/password.html
+#: www/account/template/setupPassword.html
+msgid "Envoi demande"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Impossible d'activer votre compte, un incident est survenu.<br>Vérifier votre saisie."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Impossible de créer votre compte, est incident est survenu.<br>Vérifier votre saisie."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Impossible de mettre à jour votre mot de passe. Le code passé est erroné"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Impossible de mettre à jour votre mot de passe. Le code passé est obsolète"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Le lien n'est pas correct, impossible d'activer votre compte"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Le lien n'est pas correct, impossible de saisir votre nouveau mot de passe"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Mot de Passe perdu?"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Mot de passe"
+msgstr ""
+
+#: www/account/template/creation.html
+msgid "Mot de passe: 6 à 30 car."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Nous n'avons pas trouvé vos identifiants dans notre base, contrôllez votre identifiant et votre mot de passe."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Nous n'avons pas trouvé votre email dans notre base."
+msgstr ""
+
+#: www/account/template/setupPassword.html
+msgid "Nouveau mot de passe"
+msgstr ""
+
+#: www/account/template/password.html
+msgid "Redéfinissez votre mot de passe"
+msgstr ""
+
+#: www/account/template/login.html
+msgid "Rester connecté"
+msgstr ""
+
+#: www/account/template/creation.html
+#: www/account/template/password.html
+#: www/account/template/setupPassword.html
+#: www/account/template/validation.html
+msgid "Retour identification"
+msgstr ""
+
+#: www/account/template/setupPassword.html
+msgid "Saisissez votre nouveau mot de passe"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Un compte avec cet email existe déjà!"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Un email vous a été envoyé vous permettant de réinitialiser votre mot de passe."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Un incident a eu lieu avec le serveur. <br>Merci d'essayer à nouveau."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Un incident a eu lieu avec le serveur. Merci d'essayer à nouveau."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Vos mots de passe sont différents, merci de corriger votre saisie"
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Votre compte a été activé. <br>Vous pouvez maintenant accéder à notre service et vous identifier."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Votre compte a été créé. <br>Pour qu'il soit valide, vous devez cliquer sur le lien qui vous a été adressé par email."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Votre compte est en attente de validation. Veuillez cliquer sur le lien qui vous a été adressé par email."
+msgstr ""
+
+#: www/account/template/string.html
+msgid "Votre mot de passe a été modifié, vous pouvez vous identifier."
+msgstr ""
+
+#: www/account/template/creation.html
+msgid "Votre nom: 3 à 50 car."
+msgstr ""

@@ -1,0 +1,63 @@
+                <!-- *********************************************************************************-->
+				<!-- 4.1 On affiche le champ par défaut dans le bloc de l'élément à afficher              -->
+                <!-- *********************************************************************************-->
+				<div   ng-click="row['__etat']=1-row['__etat']" class="rc-button rc-button-submit{{row['__cat']}}">
+                    <div class=" rc-left">
+                    	<!-- s'il y a un check defaut on l'affiche -->
+                    	<div class="checkDefaut" ng-if="liste.checkDefaut!=undefined && row['__cat']==0">
+                        	<input type="checkbox" ng-change="majCheckDefaut(row)" ng-model="row[liste.champs[liste.checkDefaut].nomChamp]">
+                        </div>
+                        
+                    	<!--TODO: voir le formatage de la longueur du champ-->
+                        <span>
+                        	{{row[champDefaut].substr(0,30)}}
+                        </span>
+                        <!-- 4.1.1 Le nombre d'éléments sous jacents -->
+                        <span ng-show="row['__cat']">({{row['__index']}})</span>
+                        <!-- 4.1.2 La flêche de déroutelement -->
+                        <div ng-class="'fleche' + row['__etat']" ng-click="row['__etat']=1-row['__etat']"></div>
+                    </div>
+               </div>
+               
+               <!-- *********************************************************************************-->
+			   <!-- 4.2 On affiche le détail                                                             -->
+               <!-- *********************************************************************************-->
+			   <div ng-show="row['__etat']">
+               		<!-- 4.2.1 On affiche les informations sur un produit -->
+                    <div ng_if="row['__cat']==0">
+                      <div bind-html-unsafe="affTemplate(row,'templateAff')"></div>
+					</div>
+                   
+                    <!-- 4.2.2 On affiche les informations sur une catégorie -->
+                    <!-- Le commentaire s'il existe -->
+                    <div ng-if="row['__cat']!=0" class="commentaire clearfix" >
+                        <div bind-html-unsafe="affTemplate(row,'templateCat')"></div>
+                        <span ng-bind-html="row[liste.champs[liste.champCommentaire].nomChamp]"></span>
+                    </div>
+                   
+                    
+                    <!-- 4.2.3 Les commandes sur l'enregistrement -->
+                    <div class="clearfix"></div>
+                    <div class="boutons">
+                    	<!-- Si c'est une catégorie on ne peut la supprimer si elle contient des produits-->
+                    	<span ng-hide="row['__index']">
+                        	<a ng-click="supprimer(row)">Supprimer</a>
+                        </span>
+                        <a ng-if="liste.champCommentaire!=undefined" ng-click="comment(row)">Commentaire</a>
+                        <a ng-click="editRow(row)">Modifier</a>
+                        <a ng-if ="row['__cat']" ng-click="new(row)">Nouveau</a>
+                        
+                    </div>
+
+                   <!-- *********************************************************************************-->
+                   <!-- 4.3 On boucle sur les suivants
+                   <!-- *********************************************************************************-->
+                    <div ng-if="row['__cat']!=0" class="divSSContenu">	
+                        <!--<ct-detail-liste rows="rows" filtre="{{row._id.$id}}"></ct-detail-liste>-->
+                        <div  ng-repeat="row in extract = (rows | filter : filtreHierarchique(row['_id']['$id']) | orderBy:['__cat',triListe['champ']]) track by row['_id']['$id']" ng-include="detailRow" ng-init="$parent.row['__index']=extract.length">
+                        	
+                        
+                        </div>  
+                    </div>
+            	</div>       
+		           

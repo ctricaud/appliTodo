@@ -1,0 +1,5 @@
+angular.module('myApp').run(['gettextCatalog', function (gettextCatalog) {
+/* jshint -W100 */
+    gettextCatalog.setStrings('nl', {"Activation d'un nouveau compte utilisateur":"Het activeren van een nieuwe account","Adresse e-mail":"E-mail","Connexion":"Login","Contrôle répéter Mot de passe":"Controle Herhaal wachtwoord","Contrôle: répéter Mot de passe":"Controle Herhaal wachtwoord","Création d'un nouveau compte utilisateur":"Het creëren van een nieuwe gebruikersaccount","Créer un compte gratuitement":"Maak een gratis account","Des projets et des listes sans limite":" Onbeperkt Projecten en lijsten","Entre 6 et 30 caractères":"Tussen 6 en 30 tekens","Envoi demande":"Verzoek verzenden","Mot de Passe perdu?":"Wachtwoord vergeten?","Mot de passe":"Wachtwoord","Mot de passe: 6 à 30 car.":"Wachtwoord: 6-30 auto.","Nouveau mot de passe":"Nieuw wachtwoord","Redéfinissez votre mot de passe":"Reset wachtwoord","Rester connecté":"Blijf verbonden","Retour identification":"Terug identificatie","Saisissez votre nouveau mot de passe":"Voer uw nieuwe wachtwoord","Votre nom: 3 à 50 car.":"Uw naam: 3-50 auto."});
+/* jshint +W100 */
+}]);

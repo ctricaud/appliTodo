@@ -1,0 +1,42 @@
+        <div class="banner">
+            <h3>
+                Liste des champs de  {{liste.lst_nom}}
+            </h3>
+        </div>
+       <div class="card signin-card clearfix">
+            <div ng-repeat="champ in liste.champs">
+                <li class="rc-button rc-button-submit">
+                    <div class=" rc-left">
+                        {{champ.nomChamp}} 
+                    </div>
+                </li>
+                <div class="divContenu">
+                    <div ng-repeat="champType in champTypes |filter:typeChamp(champ.type)">
+                        Type: {{champType.tpnom}}
+                        <span class="separation" ct-regle num="19" regles="champ.regles"></span> Affichage défaut
+                    </div>
+				
+                	<div class=trifil>
+                        <span ct-regle num="14" regles="champ.regles"></span> Triable
+                        <span class="separation" ct-regle num="16" regles="champ.regles"></span> Filtrable
+					</div>
+                    
+                    <div ng-repeat="regle in champ.regles | orderBy: 'regleNum'">
+                     <div class="regleUnitaire" ng-show="regle.regleNum!=14 && regle.regleNum!=15 && regle.regleNum!=19" ng-repeat="nomRegle in champRegles | filter:regleChamp(regle.regleNum)">
+                        {{nomRegle.cr_nom}}
+                        <span ng-if=(regle.valeur!=='')> = {{regle.valeur}}</span>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="centered">
+            <p class="create-account">
+				<a href="#/listeOptions/{{liste[0].id}}">Retour options de votre Liste</a>
+            </p>
+        </div>
+                   

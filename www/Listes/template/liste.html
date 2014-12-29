@@ -1,0 +1,31 @@
+        <div class="banner">
+            <h3>
+				{{results.length+"/"+listesLength}}  liste<span ng-if="listesLength>1">s</span> dans votre compte
+            </h3>
+        </div>
+       <div class="card cardli signin-card clearfix">
+       		<div class="barrePlus clearfix">
+                <div class="cellLeft"><a href="" ng-click="openTri()"><img ng-if="listesLength>1" class="filter-img" src="images/sort.png" alt=""></a></div>
+                <div class="cellCentre"><a href="#/new"><img class="plus-img" src="images/plus.png" alt=""></a></div>
+            	<div class="cellRight"><a href="" ng-click="openFiltre()"><img ng-if="listesLength>1" class="filter-img" src="images/filter.png" alt=""></div>
+            </div>
+                
+            <div class="centered"  ng-if="listesLength==0">
+                <p class="create-account">
+                    Cliquez sur le bouton<br>pour créer votre première liste</a>
+                </p>
+            </div>
+
+            <li class="rc-button rc-button-submit" ng-repeat="liste in results = (listes | filter:filtreListe() | orderBy:tri['champ']:tri['ordre'])">
+            	<div class=" rc-left">
+					<a href="#liste/{{liste._id.$id}}">{{liste.lst_nom}}</a> 
+                    <div class="alert-img">{{liste.lst_nom | checkmark}}</div>
+                    <!-- Le bouton de partage -->
+                    <a ng-click="share(liste)" href="">
+	                    <div class="sharing"> </div>
+                    </a>  
+
+                </div>
+            </li>
+        </div>
+

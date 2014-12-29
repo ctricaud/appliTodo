@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christophe Tricaud <christophe@tricaud.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: www/account/template/validation.html
+msgid "Activation d'un nouveau compte utilisateur"
+msgstr "Aktivieren Sie ein neues Konto"
+
+#: www/account/template/creation.html www/account/template/login.html
+#: www/account/template/password.html
+msgid "Adresse e-mail"
+msgstr "E-Mail"
+
+#: www/account/template/login.html
+msgid "Connexion"
+msgstr "Anmelden"
+
+#: www/account/template/setupPassword.html
+msgid "Contrôle répéter Mot de passe"
+msgstr "Steuer Passwort wiederholen"
+
+#: www/account/template/creation.html
+msgid "Contrôle: répéter Mot de passe"
+msgstr "Steuer Passwort wiederholen"
+
+#: www/account/template/creation.html
+msgid "Création d'un nouveau compte utilisateur"
+msgstr "Erstellen eines neuen Benutzerkontos"
+
+#: www/account/template/login.html
+msgid "Créer un compte gratuitement"
+msgstr "Ein kostenloses Konto anlegen"
+
+#: www/account/template/login.html
+msgid "Des projets et des listes sans limite"
+msgstr "Unbegrenzte Projekte und Listen"
+
+#: www/account/template/setupPassword.html
+msgid "Entre 6 et 30 caractères"
+msgstr "Zwischen 6 und 30 Zeichen"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+msgid "Envoi demande"
+msgstr "Senden Anfrage"
+
+#: www/account/template/login.html
+msgid "Mot de Passe perdu?"
+msgstr "Passwort vergessen?"
+
+#: www/account/template/login.html
+msgid "Mot de passe"
+msgstr "Passwort"
+
+#: www/account/template/creation.html
+msgid "Mot de passe: 6 à 30 car."
+msgstr "Passwort: 6-30 Zeichen"
+
+#: www/account/template/setupPassword.html
+msgid "Nouveau mot de passe"
+msgstr "Neues Passwort"
+
+#: www/account/template/password.html
+msgid "Redéfinissez votre mot de passe"
+msgstr "Passwort zurücksetzen"
+
+#: www/account/template/login.html
+msgid "Rester connecté"
+msgstr "bleiben"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+#: www/account/template/validation.html
+msgid "Retour identification"
+msgstr "Zurück Identifikations"
+
+#: www/account/template/setupPassword.html
+msgid "Saisissez votre nouveau mot de passe"
+msgstr "Geben Sie Ihr neues Passwort"
+
+#: www/account/template/creation.html
+msgid "Votre nom: 3 à 50 car."
+msgstr "Ihr Name: 3-50 Zeichen"
+
+#: www/account/template/setupPassword.html
+msgid "{{message}}"
+msgstr ""

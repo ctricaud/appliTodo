@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christophe Tricaud <christophe@tricaud.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
+
+#: www/account/template/validation.html
+msgid "Activation d'un nouveau compte utilisateur"
+msgstr "激活新帐号"
+
+#: www/account/template/creation.html www/account/template/login.html
+#: www/account/template/password.html
+msgid "Adresse e-mail"
+msgstr "电子邮件地址"
+
+#: www/account/template/login.html
+msgid "Connexion"
+msgstr "注册"
+
+#: www/account/template/setupPassword.html
+msgid "Contrôle répéter Mot de passe"
+msgstr "控制重复密码"
+
+#: www/account/template/creation.html
+msgid "Contrôle: répéter Mot de passe"
+msgstr "控制：重复密码"
+
+#: www/account/template/creation.html
+msgid "Création d'un nouveau compte utilisateur"
+msgstr "创建一个新的用户帐户"
+
+#: www/account/template/login.html
+msgid "Créer un compte gratuitement"
+msgstr "创建一个免费帐户"
+
+#: www/account/template/login.html
+msgid "Des projets et des listes sans limite"
+msgstr "项目和无限的名单"
+
+#: www/account/template/setupPassword.html
+msgid "Entre 6 et 30 caractères"
+msgstr "6至30个字符"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+msgid "Envoi demande"
+msgstr "发送请求"
+
+#: www/account/template/login.html
+msgid "Mot de Passe perdu?"
+msgstr "忘记密码？"
+
+#: www/account/template/login.html
+msgid "Mot de passe"
+msgstr "密码"
+
+#: www/account/template/creation.html
+msgid "Mot de passe: 6 à 30 car."
+msgstr "密码：6-30车。"
+
+#: www/account/template/setupPassword.html
+msgid "Nouveau mot de passe"
+msgstr "新密码"
+
+#: www/account/template/password.html
+msgid "Redéfinissez votre mot de passe"
+msgstr "重设密码"
+
+#: www/account/template/login.html
+msgid "Rester connecté"
+msgstr "保持联系"
+
+#: www/account/template/creation.html www/account/template/password.html
+#: www/account/template/setupPassword.html
+#: www/account/template/validation.html
+msgid "Retour identification"
+msgstr "返回标识"
+
+#: www/account/template/setupPassword.html
+msgid "Saisissez votre nouveau mot de passe"
+msgstr "请输入您的新密码"
+
+#: www/account/template/creation.html
+msgid "Votre nom: 3 à 50 car."
+msgstr "你的名字：3-50车。"
+
+#: www/account/template/setupPassword.html
+msgid "{{message}}"
+msgstr "{{消息}}"

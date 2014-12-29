@@ -1,0 +1,52 @@
+<html  ng-app="myApp" lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+
+    <title>InfinyList.com</title>
+    <link rel="stylesheet" type="text/css" href="../inc/style/style.css" />
+
+
+</head>
+
+<body>
+	<div class="headerBarre" ng-controller="headerController">
+    	<div class="headerLogo">
+        <a href=#>
+      		<img alt="TodoList" class="logo" src="../images/logo.png" height=50>
+        </a>
+        </div>
+
+    	<div class="headerMenu dropdown"">
+            <a class="dropdown-toggle" id="dropdown-toggle">
+	            <img alt="Menu" src="../images/lang.png" height=25>
+            </a>
+            <ul class="dropdown-menu">
+                <li ng-repeat="choice in items">
+					<a ng-click={{choice.action}}>{{choice.menu}}</a>
+                </li>
+            </ul>
+       </div>
+        
+    </div>
+    <div class="main content clearfix">
+        <ng-view/>
+    </div>
+ 
+    <script src="../inc/js/angular.min.js"></script>
+    <script src="../inc/js/angular-route.min.js"></script>
+    <script src="../inc/js/angular-sanitize.min.js"></script>
+  	<script src="../inc/js/angular-cookies.min.js"></script>
+    <script src="../inc/js/angular-mobile.js"></script>
+    <script src="../inc/js/mobile-nav.js"></script>
+    <script src="../inc/js/ui-bootstrap-tpls-0.10.0.js"></script>
+	<script src="../inc/js/jquery-2.1.0.js"></script>
+	<script src="../inc/js/angular-gettext.min.js"></script>
+
+    
+	<script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </body>
+</html>
+
